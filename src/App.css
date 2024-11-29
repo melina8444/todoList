@@ -1,0 +1,11 @@
+.container {
+  background-image: url('./assets/backgroundPrincipal.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Hace que el fondo cubra toda la pantalla */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
