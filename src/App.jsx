@@ -17,6 +17,7 @@ function App() {
         status: "error",
         duration: 3000,
         isClosable: true,
+        position: "top",
       });
     } else if (nuevaTarea.trim().length < 4) {
       toast({
@@ -25,6 +26,7 @@ function App() {
         status: "warning",
         duration: 3000,
         isClosable: true,
+        position: "top",
       });
     } else {
       const nuevasTareas = [
@@ -39,6 +41,7 @@ function App() {
         status: "success",
         duration: 3000,
         isClosable: true,
+        position: "top",
       });
     }
   };
@@ -51,6 +54,7 @@ function App() {
         status: "error",
         duration: 3000,
         isClosable: true,
+        position: "top",
       });
     } else if (nuevoTexto.trim().length < 4) {
       toast({
@@ -59,6 +63,7 @@ function App() {
         status: "warning",
         duration: 3000,
         isClosable: true,
+        position: "top",
       });
     } else {
       const nuevasTareas = [...tareas];
@@ -71,6 +76,7 @@ function App() {
         status: "success",
         duration: 3000,
         isClosable: true,
+        position: "top",
       });
     }
   };
@@ -85,6 +91,7 @@ function App() {
       status: "info",
       duration: 3000,
       isClosable: true,
+      position: "top",
     });
   };
 
@@ -101,6 +108,7 @@ function App() {
       status: "success",
       duration: 3000,
       isClosable: true,
+      position: "top",
     });
   };
 
