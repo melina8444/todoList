@@ -43,16 +43,31 @@ http://localhost:5173/
 
 🖼️ Capturas de pantalla
 
+---
+
 Pantalla principal
 ![alt text](image.png)
+
+---
 Tarea agregada con éxito
 ![alt text](image-1.png)
+
+---
+
 Tarea editada
 ![alt text](image-2.png)
+
+---
+
 Tarea completada
 ![alt text](image-3.png)
+
+---
+
 Tarea eliminada
 ![alt text](image-4.png)
+
+---
 
 📚 Cómo usar
 
