@@ -1,5 +1,6 @@
 import { HStack, Text, IconButton, Input, Button } from "@chakra-ui/react";
 import { IoMdRemoveCircleOutline, IoMdCreate } from "react-icons/io";
+import { CheckIcon } from "@chakra-ui/icons"; // Importamos el ícono de tilde
 
 import { useState } from "react";
 
@@ -41,12 +42,18 @@ const Item = ({
         </HStack>
       ) : (
         <>
-          <Text
-            as={tarea.completada ? "s" : "span"} // Estilo tachado si está completada
-            color={tarea.completada ? "gray.500" : "black"}
-          >
-            {tarea.texto}
-          </Text>
+          <HStack alignItems="center">
+            {tarea.completada && <CheckIcon color="green.500" />}
+            {/* Ícono de tilde */}
+
+            <Text
+              as={tarea.completada ? "s" : "span"} // Estilo tachado si está completada
+              color={tarea.completada ? "gray.500" : "black"}
+              ml={tarea.completada ? 2 : 0} // Espacio si hay un ícono
+            >
+              {tarea.texto}
+            </Text>
+          </HStack>
           <HStack>
             {/* Solo muestra los íconos si la tarea no está completada */}
             {!tarea.completada && (
