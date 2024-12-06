@@ -45,8 +45,8 @@ const List = ({
       : tareas;
 
   return (
-    <VStack spacing={4} bg="#d8bfdc" borderRadius="8px" p={4}>
-      {/* Bloque con Select para elegir estado de la tarea */}
+    <VStack  spacing={4} bg="#d8bfdc" borderRadius="8px" p={4}>
+      {/* Bloque con Select para elegir el estado de la tarea */}
       <div >
         <Text fontSize="lg" fontWeight="bold" mb={2}>
           Filtrar Tareas

@@ -1,6 +1,6 @@
 import { HStack, Text, IconButton, Input, Button } from "@chakra-ui/react";
-import { IoMdRemoveCircleOutline } from "react-icons/io";
-import { IoMdCreate } from "react-icons/io";
+import { IoMdRemoveCircleOutline, IoMdCreate } from "react-icons/io";
+
 import { useState } from "react";
 
 const Item = ({
@@ -65,7 +65,7 @@ const Item = ({
                   icon={<IoMdRemoveCircleOutline />}
                   size="sm"
                   onClick={(e) => {
-                    e.stopPropagation(); // Evita que el clic afecte `tareaCompletada`
+                    e.stopPropagation(); // Evita que el click afecte `tareaCompletada`
                     eliminarTarea(index);
                   }}
                   bg="red.400"

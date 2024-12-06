@@ -11,7 +11,7 @@ const TodoList = ({
   tareaCompletada,
 }) => {
   return (
-    <VStack minH="100vh" minWidth={20} spacing={20} justifyContent="center">
+    <VStack minHeight='100vh' minWidth={20} spacing={20} justifyContent="center">
       <Heading
         bgGradient="linear(to-tr, #7928CA, #FF0080)"
         bgClip="text"
