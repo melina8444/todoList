@@ -1,83 +1,53 @@
-# **TodoList App** 📝
+# Todo List App (React + Chakra UI)
 
-Una aplicación de lista de tareas (To-Do List) creada con **React** y **Chakra UI**. Permite a los usuarios agregar, editar, eliminar y marcar tareas como completadas de manera sencilla y visualmente atractiva.
+Aplicación de gestión de tareas desarrollada con React y Chakra UI.  
+Permite crear, visualizar y organizar tareas en una interfaz moderna y responsive.
 
----
-
-## 🚀 **Características**
-- **Agregar tareas: Crea tareas nuevas con validaciones para evitar entradas vacías o muy cortas.
-- **Editar tareas: Modifica el contenido de tus tareas fácilmente.
-- **Eliminar tareas: Elimina tareas de la lista con un solo clic.
-- **Marcar como completada: Cambia el estado de las tareas y muestra un ícono de tilde (✅) cuando están completadas.
-- **Interfaz amigable: Diseño moderno y responsivo utilizando Chakra UI.
+🔗 Live Demo  
+https://todolist-chakra2024.netlify.app/
 
 ---
 
-## 🛠️ **Tecnologías utilizadas**
+## 🚀 Características
 
-- **React**: Biblioteca para construir interfaces de usuario.
-- **Chakra UI**: Framework de componentes estilizados para React.
-- **React Icons**: Para los íconos de la interfaz.
-- **LocalStorage**: Para persistir los datos de las tareas en el navegador.
-
----
-
-## 📦 **Instalación**
-
-
-1️⃣ **Clona el repositorio:**
-
-git clone https://github.com/melina8444/todoList.git
-cd todoList
-
-2️⃣ Instala las dependencias:
-
-npm install
-
-3️⃣ Inicia el servidor de desarrollo:
-
-npm run dev
-
-4️⃣ Abre la aplicación en tu navegador:
-http://localhost:5173/
-
-🖼️ Capturas de pantalla
+- Crear nuevas tareas
+- Visualizar lista de tareas
+- Interfaz moderna con Chakra UI
+- Diseño responsive
 
 ---
 
-Pantalla principal
-![alt text](image.png)
+## 🛠 Tecnologías utilizadas
 
----
-Tarea agregada con éxito
-![alt text](image-1.png)
-
----
-
-Tarea editada
-![alt text](image-2.png)
+- React
+- JavaScript
+- Chakra UI
+- HTML5
+- CSS3
 
 ---
 
-Tarea completada
-![alt text](image-3.png)
+## 📸 Captura del proyecto
+
+<img width="474" height="670" alt="image" src="https://github.com/user-attachments/assets/ad45b923-a15f-4e90-8705-801605270a06" />
+<img width="608" height="715" alt="image" src="https://github.com/user-attachments/assets/b27c7f69-cc65-405e-a4e7-3d372a3c5249" />
+<img width="807" height="799" alt="image" src="https://github.com/user-attachments/assets/25121c91-8b52-4e26-8718-e0cf8945c7fa" />
+<img width="720" height="780" alt="image" src="https://github.com/user-attachments/assets/4eee8611-9610-498a-ba8a-81491a7fff8a" />
+
 
 ---
 
-Tarea eliminada
-![alt text](image-4.png)
+## 📚 Objetivo del proyecto
+
+Este proyecto fue desarrollado como práctica para aprender:
+
+- desarrollo de interfaces con React
+- uso de librerías de componentes
+- organización de aplicaciones frontend
 
 ---
 
-📚 Cómo usar
+## 👩‍💻 Autor
 
-1️⃣  Escribe una tarea en el campo de entrada y haz clic en Agregar.
-2️⃣ Haz clic en una tarea para marcarla como completada o incompleta.
-3️⃣  Edita o elimina tareas utilizando los botones correspondientes.
-
-📩 Contacto
-
-Cualquier duda o sugerencia, puedes contactarme a través de:
-
-GitHub: [melina8444](https://github.com/melina8444/todoList)
-Email: melinayanguez@gmail.com
+Melina Yangüez  
+Frontend Developer
